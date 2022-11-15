@@ -31,6 +31,8 @@ group :development, :test do
       github: "thoughtbot/action_dispatch-testing-integration-capybara",
       tag: "v0.1.0",
       require: "action_dispatch/testing/integration/capybara/rspec"
+
+  gem "super_diff"
 end
 
 group :development do
