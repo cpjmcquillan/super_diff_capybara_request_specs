@@ -22,4 +22,5 @@ jobs:
         run: bundle exec rails test
 
       - name: Run RSpec
+        if: always()
         run: bundle exec rspec
