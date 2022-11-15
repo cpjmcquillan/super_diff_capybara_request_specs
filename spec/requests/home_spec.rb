@@ -5,7 +5,7 @@ RSpec.describe "Home", type: :request do
     it "displays the welcome message" do
       get root_path
 
-      expect(page).to have_css("h1", text: "Hello, world!")
+      expect(response.body).to include("Hello, world!")
     end
   end
 end
