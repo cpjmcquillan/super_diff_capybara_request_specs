@@ -24,6 +24,16 @@ group :development, :test do
   gem "rspec-rails"
 
   gem "super_diff"
+
+  gem "action_dispatch-testing-integration-capybara",
+       github: "thoughtbot/action_dispatch-testing-integration-capybara",
+       tag: "v0.1.0",
+       require: "action_dispatch/testing/integration/capybara/minitest"
+
+   gem "action_dispatch-testing-integration-capybara",
+       github: "thoughtbot/action_dispatch-testing-integration-capybara",
+       tag: "v0.1.0",
+       require: "action_dispatch/testing/integration/capybara/rspec"
 end
 
 group :development do
